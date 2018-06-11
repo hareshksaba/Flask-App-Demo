@@ -12,6 +12,7 @@ COPY . /app
 WORKDIR /app
 
 # Set environment variables
+ENV FLASK_ENV=development
 ENV FLASK_APP=hello.py
 
 # Expose the application's port
