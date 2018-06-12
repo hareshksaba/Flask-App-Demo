@@ -8,4 +8,8 @@ def hello():
 @app.route("/cox")
 def hello_cox():
     return "Hello Cox!"
+
+@app.route("/coxtest")
+def hello_cox_test():
+    return "Hello Cox_test!"
 #Test
